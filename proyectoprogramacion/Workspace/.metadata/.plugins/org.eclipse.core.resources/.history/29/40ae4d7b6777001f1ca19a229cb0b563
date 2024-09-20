@@ -1,0 +1,10 @@
+package proyecto1;
+
+public class regladetres {
+
+	public static void main(String[] args) {
+		// Aquí escribimos nuestro código de resolución de regla de tres
+
+	}
+
+}
