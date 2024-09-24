@@ -14,7 +14,6 @@ public class regladetres {
 		int c = scan.nextInt();
 		int resultado = float x = (b*c)/a
 		
-	public static void main(String[] args) {
 	}
 
 }

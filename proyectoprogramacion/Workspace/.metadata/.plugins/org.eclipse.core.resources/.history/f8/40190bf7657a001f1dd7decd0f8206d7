@@ -1,0 +1,23 @@
+package proyecto1;
+
+import java.util.Scanner;
+
+public class Regla_De_Tres_3 {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("introduce a"); //texto de prueba !ñ ó
+		float a = scan.nextFloat();
+		System.out.print("introduce b");
+		float b = scan.nextFloat();
+		System.out.print("introduce c");
+		float c = scan.nextFloat();
+		
+		float x = (b*c)/a;
+		
+		System.out.println("el resultado es "+ x);
+				
+		scan.close();
+		
+	}
+}
