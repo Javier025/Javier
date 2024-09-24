@@ -2,7 +2,7 @@ package proyecto1;
 
 import java.util.Scanner;
 
-public class RegladeTres2 {
+public class RegladeTresenclase {
 
     public static void main(String[] args) {
         
@@ -13,15 +13,21 @@ public class RegladeTres2 {
         		""");
         Scanner scan = new Scanner(System.in);
         System.out.println("\nIntroduce a: ");
-        float a = scan.nextFloat();  
+        double a = scan.nextDouble();  
         System.out.println("Introduce b: ");
-        float b = scan.nextFloat();
+        double b = scan.nextDouble();
         System.out.println("\nIntroduce c: ");
-        float c = scan.nextFloat();   
-   
-        float x = (b * c) / a;
+        double c = scan.nextDouble();   
         
-        System.out.println("El resultado de la regla de tres es: " + x);
+        //solución xx= (b*c)/a
+        //TODO: Controlar que no se dé a=0
+        double x = (b * c) / a;
+        
+        System.out.println("\nEl resultado de la regla de tres es: " + x);
+        System.out.print(a);
+        System.out.print(" ---> ");
+        System.out.print(b);
+        
         
         scan.close();  
     }
