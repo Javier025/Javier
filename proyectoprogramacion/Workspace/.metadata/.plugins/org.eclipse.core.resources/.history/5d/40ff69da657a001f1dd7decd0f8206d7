@@ -1,0 +1,13 @@
+package proyecto1;
+
+import java.util.Scanner;
+
+public class Regla_De_Tres_3 {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		
+		
+	}
+}
